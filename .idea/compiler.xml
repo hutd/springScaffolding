@@ -39,10 +39,10 @@
       <module name="quick-nursing-interface" target="1.8" />
       <module name="quick-nursing-service" target="1.8" />
       <module name="quick-sentinel" target="1.8" />
-      <module name="quick-spring-model" target="1.8" />
       <module name="quick-user" target="1.8" />
       <module name="quick-user-interface" target="1.8" />
       <module name="quick-user-service" target="1.8" />
+      <module name="springScaffolding" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -63,10 +63,10 @@
       <module name="quick-nursing-interface" options="-parameters" />
       <module name="quick-nursing-service" options="-parameters" />
       <module name="quick-sentinel" options="-parameters" />
-      <module name="quick-spring-model" options="-parameters" />
       <module name="quick-user" options="-parameters" />
       <module name="quick-user-interface" options="-parameters" />
       <module name="quick-user-service" options="-parameters" />
+      <module name="springScaffolding" options="-parameters" />
     </option>
   </component>
 </project>

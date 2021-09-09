@@ -17,10 +17,10 @@
       <module fileurl="file://$PROJECT_DIR$/quick-nursing/quick-nursing.iml" filepath="$PROJECT_DIR$/quick-nursing/quick-nursing.iml" />
       <module fileurl="file://$PROJECT_DIR$/quick-nursing/quick-nursing-interface/quick-nursing-interface.iml" filepath="$PROJECT_DIR$/quick-nursing/quick-nursing-interface/quick-nursing-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/quick-nursing/quick-nursing-service/quick-nursing-service.iml" filepath="$PROJECT_DIR$/quick-nursing/quick-nursing-service/quick-nursing-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/quick-spring-model.iml" filepath="$PROJECT_DIR$/quick-spring-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/quick-user/quick-user.iml" filepath="$PROJECT_DIR$/quick-user/quick-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/quick-user/quick-user-interface/quick-user-interface.iml" filepath="$PROJECT_DIR$/quick-user/quick-user-interface/quick-user-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/quick-user/quick-user-service/quick-user-service.iml" filepath="$PROJECT_DIR$/quick-user/quick-user-service/quick-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springScaffolding.iml" filepath="$PROJECT_DIR$/springScaffolding.iml" />
     </modules>
   </component>
 </project>
