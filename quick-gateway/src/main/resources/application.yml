@@ -1,0 +1,22 @@
+server:
+  port: 8100
+spring:
+  mvc:
+    async:
+      request-timeout: 5000
+  profiles:
+    active: dev
+
+quick:
+  login:
+    tokenExpire: 2592000        #token过期时间30天
+
+  filter:
+    allowPaths:
+      - /quick-user/minio/upload
+      - /quick-user/minio/removeFile
+      - /quick-user/minio/downloadFile
+      - /quick-user/userModel/testDB
+      - /quick-user/userModel/testFeign
+  #    - /quick-user/userModel/testRedis
+      - /quick-user/userModel/testSentinel

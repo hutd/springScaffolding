@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="quick-monitor" />
+        <module name="quick-gateway" />
+        <module name="quick-nursing-interface" />
+        <module name="quick-common" />
+        <module name="quick-clinical-interface" />
+        <module name="quick-nursing-service" />
+        <module name="quick-external-interface" />
+        <module name="quick-user-interface" />
+        <module name="quick-laboratory-interface" />
+        <module name="quick-laboratory-service" />
+        <module name="quick-user-service" />
+        <module name="quick-clinical-service" />
+        <module name="quick-external-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="quick-clinical" target="1.8" />
+      <module name="quick-clinical-interface" target="1.8" />
+      <module name="quick-clinical-service" target="1.8" />
+      <module name="quick-common" target="1.8" />
+      <module name="quick-external" target="1.8" />
+      <module name="quick-external-interface" target="1.8" />
+      <module name="quick-external-service" target="1.8" />
+      <module name="quick-gateway" target="1.8" />
+      <module name="quick-laboratory" target="1.8" />
+      <module name="quick-laboratory-interface" target="1.8" />
+      <module name="quick-laboratory-service" target="1.8" />
+      <module name="quick-monitor" target="1.8" />
+      <module name="quick-nursing" target="1.8" />
+      <module name="quick-nursing-interface" target="1.8" />
+      <module name="quick-nursing-service" target="1.8" />
+      <module name="quick-sentinel" target="1.8" />
+      <module name="quick-spring-model" target="1.8" />
+      <module name="quick-user" target="1.8" />
+      <module name="quick-user-interface" target="1.8" />
+      <module name="quick-user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="quick-clinical" options="-parameters" />
+      <module name="quick-clinical-interface" options="-parameters" />
+      <module name="quick-clinical-service" options="-parameters" />
+      <module name="quick-common" options="-parameters" />
+      <module name="quick-external" options="-parameters" />
+      <module name="quick-external-interface" options="-parameters" />
+      <module name="quick-external-service" options="-parameters" />
+      <module name="quick-gateway" options="-parameters" />
+      <module name="quick-laboratory" options="-parameters" />
+      <module name="quick-laboratory-interface" options="-parameters" />
+      <module name="quick-laboratory-service" options="-parameters" />
+      <module name="quick-monitor" options="-parameters" />
+      <module name="quick-nursing" options="-parameters" />
+      <module name="quick-nursing-interface" options="-parameters" />
+      <module name="quick-nursing-service" options="-parameters" />
+      <module name="quick-sentinel" options="-parameters" />
+      <module name="quick-spring-model" options="-parameters" />
+      <module name="quick-user" options="-parameters" />
+      <module name="quick-user-interface" options="-parameters" />
+      <module name="quick-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

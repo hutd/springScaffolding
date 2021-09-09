@@ -1,0 +1,48 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@1.14.153.121:1521/helowin
+    username: htd
+    password: 123456
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  jackson:
+    default-property-inclusion: NON_NULL
+  application:
+    name: quick-geteway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 1.14.153.121:8848
+        cluster-name: quick
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET
+              - POST
+            allowed-headers: "*"
+            allow-credentials: true
+  redis:
+    database: 0
+    # 单机redis地址、端口
+    host: 1.14.153.121
+    port: 6379
+    # 集群redis地址、端口
+    #    sentinel:
+    #      master: 集群主机
+    #      nodes: 集群地址
+    #    password: 密码
+    timeout: 200
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: 1
+        max-idle: 8
+        min-idle: 0
+# 日志
+logging:
+  config: classpath:logback-gateway.xml

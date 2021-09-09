@@ -1,0 +1,43 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.1.167:8848
+      discovery:
+        server-addr: 192.168.1.167:8848
+    sentinel:
+      #      eager: true
+      transport:
+        dashboard: 192.168.1.167:8080
+        client-ip: 192.168.1.167
+      datasource:
+        flow:
+          nacos:
+            server-addr: 192.168.1.167:8848
+            dataId: ${spring.application.name}-flow-rules
+            groupId: SENTINEL_GROUP
+            rule-type: flow
+        degrade:
+          nacos:
+            server-addr: 192.168.1.167:8848
+            groupId: SENTINEL_GROUP
+            dataId: ${spring.application.name}-degrade-rules
+            rule-type: degrade
+          param-flow:
+            nacos:
+              server-addr: ${nacos.server-addr}
+              groupId: SENTINEL_GROUP
+              dataId: ${spring.application.name}-param-rules
+              rule-type: param-flow
+          system:
+            nacos:
+              server-addr: ${nacos.server-addr}
+              groupId: SENTINEL_GROUP
+              dataId: ${spring.application.name}-system-rules
+              rule-type: system
+          authority:
+            nacos:
+              server-addr: ${nacos.server-addr}
+              groupId: SENTINEL_GROUP
+              dataId: ${spring.application.name}-authority-rules
+              rule-type: authority

@@ -1,0 +1,50 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: ${local-ip}:${nacos-port}
+      discovery:
+        server-addr: ${local-ip}:${nacos-port}
+    sentinel:
+      eager: true
+      transport:
+        dashboard: ${local-ip}:${sentinel-port}
+        client-ip: ${local-ip}
+      datasource:
+        flow: #流控规则
+          nacos:
+            server-addr: ${spring.cloud.nacos.discovery.server-addr}
+            dataId: ${spring.application.name}-flow-rules
+            groupId: ${groupId}
+            rule-type: flow
+        degrade: #降级规则
+          nacos:
+            server-addr: ${spring.cloud.nacos.discovery.server-addr}
+            groupId: SENTINEL_GROUP
+            dataId: ${spring.application.name}-degrade-rules
+            rule-type: degrade
+          param-flow: #热点规则
+            nacos:
+              server-addr: ${spring.cloud.nacos.discovery.server-addr}
+              groupId: SENTINEL_GROUP
+              dataId: ${spring.application.name}-param-rules
+              rule-type: param-flow
+          system: #系统规则
+            nacos:
+              server-addr: ${spring.cloud.nacos.discovery.server-addr}
+              groupId: SENTINEL_GROUP
+              dataId: ${spring.application.name}-system-rules
+              rule-type: system
+          authority: #授权规则
+            nacos:
+              server-addr: ${spring.cloud.nacos.discovery.server-addr}
+              groupId: SENTINEL_GROUP
+              dataId: ${spring.application.name}-authority-rules
+              rule-type: authority
+
+local-ip: 192.168.1.167
+server-ip: 1.14.153.121
+nacos-port: 8848
+sentinel-port: 8080
+minio-port: 9000
+http: http://

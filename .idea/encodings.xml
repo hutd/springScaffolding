@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/quick-clinical/quick-clinical-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-clinical/quick-clinical-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-clinical/quick-clinical-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-clinical/quick-clinical-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-external/quick-external-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-external/quick-external-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-laboratory/quick-laboratory-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-laboratory/quick-laboratory-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-nursing/quick-nursing-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-nursing/quick-nursing-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-user/quick-user-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-user/quick-user-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-user/quick-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quick-user/quick-user-service/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

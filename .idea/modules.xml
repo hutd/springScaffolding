@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/quick-clinical/quick-clinical.iml" filepath="$PROJECT_DIR$/quick-clinical/quick-clinical.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-clinical/quick-clinical-interface/quick-clinical-interface.iml" filepath="$PROJECT_DIR$/quick-clinical/quick-clinical-interface/quick-clinical-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-clinical/quick-clinical-service/quick-clinical-service.iml" filepath="$PROJECT_DIR$/quick-clinical/quick-clinical-service/quick-clinical-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-common/quick-common.iml" filepath="$PROJECT_DIR$/quick-common/quick-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-external/quick-external.iml" filepath="$PROJECT_DIR$/quick-external/quick-external.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-external/quick-external-interface/quick-external-interface.iml" filepath="$PROJECT_DIR$/quick-external/quick-external-interface/quick-external-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-external/quick-external-service/quick-external-service.iml" filepath="$PROJECT_DIR$/quick-external/quick-external-service/quick-external-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-gateway/quick-gateway.iml" filepath="$PROJECT_DIR$/quick-gateway/quick-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-laboratory/quick-laboratory.iml" filepath="$PROJECT_DIR$/quick-laboratory/quick-laboratory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-laboratory/quick-laboratory-interface/quick-laboratory-interface.iml" filepath="$PROJECT_DIR$/quick-laboratory/quick-laboratory-interface/quick-laboratory-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-laboratory/quick-laboratory-service/quick-laboratory-service.iml" filepath="$PROJECT_DIR$/quick-laboratory/quick-laboratory-service/quick-laboratory-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-monitor/quick-monitor.iml" filepath="$PROJECT_DIR$/quick-monitor/quick-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-nursing/quick-nursing.iml" filepath="$PROJECT_DIR$/quick-nursing/quick-nursing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-nursing/quick-nursing-interface/quick-nursing-interface.iml" filepath="$PROJECT_DIR$/quick-nursing/quick-nursing-interface/quick-nursing-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-nursing/quick-nursing-service/quick-nursing-service.iml" filepath="$PROJECT_DIR$/quick-nursing/quick-nursing-service/quick-nursing-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-spring-model.iml" filepath="$PROJECT_DIR$/quick-spring-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-user/quick-user.iml" filepath="$PROJECT_DIR$/quick-user/quick-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-user/quick-user-interface/quick-user-interface.iml" filepath="$PROJECT_DIR$/quick-user/quick-user-interface/quick-user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-user/quick-user-service/quick-user-service.iml" filepath="$PROJECT_DIR$/quick-user/quick-user-service/quick-user-service.iml" />
+    </modules>
+  </component>
+</project>

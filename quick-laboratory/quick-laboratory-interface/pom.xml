@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.quick-laboratory</groupId>
+        <artifactId>quick-laboratory</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.quick-laboratory-interface</groupId>
+    <artifactId>quick-laboratory-interface</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>quick-laboratory-interface</name>
+    <description>实验室模块对外提供的feign接口</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <version>2.2.0.RELEASE</version>
+        </dependency>
+    </dependencies>
+</project>

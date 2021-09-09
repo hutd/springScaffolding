@@ -1,0 +1,11 @@
+server:
+  port: 8300
+
+spring:
+  mvc:
+    async:
+      request-timeout: 5000
+  profiles:
+    active: dev
+
+ip-address: 1.14.153.121

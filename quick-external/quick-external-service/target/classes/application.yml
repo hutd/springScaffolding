@@ -1,0 +1,9 @@
+server:
+  port: 8400
+
+spring:
+  mvc:
+    async:
+      request-timeout: 5000
+  profiles:
+    active: dev

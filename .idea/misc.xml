@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-common/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-inner/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-user/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-inner/quick-inner-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-inner/quick-inner-service/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-user/quick-user-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-user/quick-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-geteway/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-clinical/quick-clinical-service/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-clinical/quick-clinical-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-nursing/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-transfusion/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-nursing/quick-nursing-service/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-nursing/quick-nursing-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-transfusion/quick-transfusion-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-transfusion/quick-transfusion-service/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-external/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-external/quick-external-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-external/quick-external-service/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-laboratory/quick-laboratory-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-laboratory/quick-laboratory-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
