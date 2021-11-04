@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: io.minio:minio:3.0.10">
     <CLASSES>
-      <root url="jar://D:/apache-maven-3.8.2/data/io/minio/minio/3.0.10/minio-3.0.10.jar!/" />
+      <root url="jar://D:/work/apache-maven-3.8.2/data/io/minio/minio/3.0.10/minio-3.0.10.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://D:/apache-maven-3.8.2/data/io/minio/minio/3.0.10/minio-3.0.10-javadoc.jar!/" />
+      <root url="jar://D:/work/apache-maven-3.8.2/data/io/minio/minio/3.0.10/minio-3.0.10-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://D:/apache-maven-3.8.2/data/io/minio/minio/3.0.10/minio-3.0.10-sources.jar!/" />
+      <root url="jar://D:/work/apache-maven-3.8.2/data/io/minio/minio/3.0.10/minio-3.0.10-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

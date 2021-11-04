@@ -26,7 +26,9 @@ import reactor.core.publisher.Mono;
 import javax.annotation.Resource;
 import java.nio.charset.StandardCharsets;
 
-
+/**
+ * gateway验证token
+ */
 @Component
 @Data
 @Slf4j

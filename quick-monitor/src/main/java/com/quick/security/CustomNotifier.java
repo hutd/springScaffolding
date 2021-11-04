@@ -17,7 +17,9 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
-
+/**
+ * 服务下线短信提醒
+ */
 @Slf4j
 @Component
 public class CustomNotifier extends AbstractStatusChangeNotifier {
@@ -60,7 +62,7 @@ public class CustomNotifier extends AbstractStatusChangeNotifier {
                     stringBuffer.append("\n时间：".concat(time));
                     // 事件的全部信息
                     log.info("微服务节点掉线:[{}]", stringBuffer.toString());
-                    // todo  发送短信 并且存储到数据库
+                    // todo 调用接口 发送短信 并且存储到数据库
 
                 }
             }

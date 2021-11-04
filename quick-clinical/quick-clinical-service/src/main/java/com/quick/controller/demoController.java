@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@Api(tags="")
+@Api(tags="测试调用远程方法")
 @RestController
 @RequestMapping("/demo")
 public class demoController {

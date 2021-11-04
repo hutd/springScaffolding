@@ -7,8 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="quick-monitor" />
         <module name="quick-gateway" />
+        <module name="quick-monitor" />
         <module name="quick-nursing-interface" />
         <module name="quick-common" />
         <module name="quick-clinical-interface" />

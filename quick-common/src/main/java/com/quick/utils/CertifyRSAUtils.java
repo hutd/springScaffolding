@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * RSA安全编码组件 合肥加密
+ * RSA安全编码组件
  *
  * @author fishlord
  * 2016年6月5日上午1:39:20
